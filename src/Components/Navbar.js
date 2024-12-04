@@ -174,7 +174,7 @@ const Navbar = () => {
           <img src={spacex} alt="" className="w-[100px]" />
           <img src={nasa} alt="" className="w-[100px]" />
           <img src={boeing} alt="" className="w-[100px]" />
-          <img src={astro} alt="" className="w-[200px]" />
+          <img src={astro} alt="" className="w-[100px]" />
         </div>
       </section>
       <section className="mt-[100px] flex flex-col  lg:flex-row items-center gap-10 ">
