@@ -170,7 +170,7 @@ const Navbar = () => {
         </div>
       </section>
       <section className="mt-10">
-        <div className=" flex flex-shrink items-center justify-between gap-10">
+        <div className=" flex  items-center justify-between gap-5">
           <img src={spacex} alt="" className="w-[100px]" />
           <img src={nasa} alt="" className="w-[100px]" />
           <img src={boeing} alt="" className="w-[100px]" />
