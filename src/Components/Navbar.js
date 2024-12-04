@@ -29,9 +29,9 @@ const Navbar = () => {
 
   return (
     <div className="container mx-auto py-[20px]">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center  justify-around">
         <div>
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="" className=" w-[100px] md:w-[155px]" />
         </div>
         <div className=" hidden md:inline-block ">
           <ul className="flex gap-5 items-center font-semibold ">
@@ -41,7 +41,7 @@ const Navbar = () => {
             <li>About Us</li>
           </ul>
         </div>
-        <button className="bg-black text-white drop-shadow-xl px-[30px] py-[14px] rounded-[15px] border border-[#000000]">
+        <button className=" px-[20px] py-[9px] bg-black text-white drop-shadow-xl md:px-[30px] md:py-[14px] rounded-[15px] border border-[#000000]">
           Sign in
         </button>
         <button onClick={handleToggle} className=" md:inline-block lg:hidden">
