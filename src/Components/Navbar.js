@@ -117,7 +117,7 @@ const Navbar = () => {
         </m.div>
       )}
       {/* hero section */}
-      <section className=" relative mt-10">
+      <section className=" relative mt-10 px-5">
         <div className=" relative">
           <img
             src={chart3}
@@ -177,7 +177,7 @@ const Navbar = () => {
           <img src={astro} alt="" className="w-[100px]" />
         </div>
       </section>
-      <section className="mt-[100px] flex flex-col  lg:flex-row items-center gap-10 ">
+      <section className="mt-[100px] px-5 flex flex-col  lg:flex-row items-center gap-10 ">
         <div className="text-[50px] font-extrabold">
           <p>Join our vibrant community of space enthusiasts where you can</p>
         </div>
