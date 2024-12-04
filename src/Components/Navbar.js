@@ -13,6 +13,8 @@ import physics from "../../src/assets/physics.png";
 import chartpie from "../../src/assets/chart-pie.png";
 import clip from "../../src/assets/clipboard.png";
 import combo from "../../src/assets/Combo.png";
+import Rectangle5 from "../../src/assets/Rectangle5.png";
+import Rectangle8 from "../../src/assets/Rectangle8.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { MdSlowMotionVideo } from "react-icons/md";
@@ -230,6 +232,61 @@ const Navbar = () => {
               from spacecraft and telescopes to propulsion systems and space
               habitats.
             </p>
+          </div>
+        </div>
+      </section>
+      <section className="mt-10">
+        <div className=" relative">
+          <img
+            src={Rectangle8}
+            alt=""
+            className="min-h-[400px] object-cover md:object-contain w-full"
+          />
+          {/* <p className="font-bold text-white text-[50px] absolute top-10 left-0 right-0 text-center max-w-[600px]">
+            We are committed to making space science accessible to all. Explore
+            our educational resources, including.
+          </p> */}
+          <div class="absolute inset-0 flex items-center justify-center  ">
+            <h1 class="text-white text-[45px] font-bold text-center max-w-[700px]">
+              {" "}
+              We are committed to making space science accessible to all.
+              Explore our educational resources, including.
+            </h1>
+          </div>
+          <div className="grid grid-cols-3 gap-7 absolute left-[200px] -bottom-[130px]   inset-x-5">
+            <div className="w-[250px] h-[250px] bg-white rounded-xl">
+              <div className="px-5 py-3">
+                <h1 className="text-[#A9C2CB]">01.</h1>
+                <p className="font-bold">Online free courses and tutorials</p>
+                <p>
+                  Dive into the basics of astronomy. Learn about stars, planets,
+                  galaxies, and the tools astronomers use to explore the
+                  universe.
+                </p>
+              </div>
+            </div>
+            <div className="w-[250px] h-[250px] bg-white rounded-xl">
+              <div className="px-5 py-3">
+                <h1 className="text-[#A9C2CB]">01.</h1>
+                <p className="font-bold">Online free courses and tutorials</p>
+                <p>
+                  Dive into the basics of astronomy. Learn about stars, planets,
+                  galaxies, and the tools astronomers use to explore the
+                  universe.
+                </p>
+              </div>
+            </div>
+            <div className="w-[250px] h-[250px] bg-white rounded-xl">
+              <div className="px-5 py-3">
+                <h1 className="text-[#A9C2CB]">01.</h1>
+                <p className="font-bold">Online free courses and tutorials</p>
+                <p>
+                  Dive into the basics of astronomy. Learn about stars, planets,
+                  galaxies, and the tools astronomers use to explore the
+                  universe.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
