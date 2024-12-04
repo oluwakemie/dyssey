@@ -170,7 +170,7 @@ const Navbar = () => {
         </div>
       </section>
       <section className="mt-10">
-        <div className=" flex  items-center justify-between gap-5">
+        <div className=" grid grid-cols-2 md:flex  items-center justify-between gap-5">
           <img src={spacex} alt="" className="w-[100px]" />
           <img src={nasa} alt="" className="w-[100px]" />
           <img src={boeing} alt="" className="w-[100px]" />
@@ -178,7 +178,6 @@ const Navbar = () => {
         </div>
       </section>
       <section className="mt-[100px] flex flex-col  lg:flex-row items-center gap-10 ">
-        
         <div className="text-[50px] font-extrabold">
           <p>Join our vibrant community of space enthusiasts where you can</p>
         </div>
