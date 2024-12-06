@@ -30,7 +30,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="container mx-auto py-[20px]">
+    <div className="px-4 md:px-9 lg:px-12 mx-auto py-[20px]">
       <div className="flex items-center  justify-around">
         <div>
           <img src={Logo} alt="" className=" w-[100px] md:w-[155px]" />
@@ -119,42 +119,45 @@ const Navbar = () => {
         </m.div>
       )}
       {/* hero section */}
-      <section className=" relative mt-10 px-5">
-        <div className=" relative">
+
+      <section className="h-[300px] md:h-[400px] z-10 relative my-10 p-5">
+      
           <img
             src={chart3}
             alt=""
-            className="min-h-[400px] object-cover md:object-cover w-full"
+            className=" h-[300px] md:h-[400px] absolute right-0 -z-10 top-0   w-full"
           />
-          <p className="text-[25px] absolute top-5 left-10 text-white font-bold md:text-[60px] leading-normal ">
+          <p className="text-[25px]    text-white font-bold md:text-[60px] leading-tight">
             Unveiling the <br /> Wonders of <br /> the Universe
           </p>
-          <div className="">
-            <img
-              src={space}
-              alt=""
-              className="w-[400px] absolute bottom-[-50px] md:absolute md:w-[550px] md:top-[60px] right-10"
-            />
+          <div className="absolute top-16 md:top-0 right-10">
+            <div className="relative">
+              <img src={space} alt="" />
+
+              <img
+                src={chart2}
+                alt=""
+                className="max-w-[180px] md:min-w-[296px] absolute top-[240px] -left-9 "
+              />
+
+              <img
+                src={chart1}
+                alt=""
+                className="max-w-[180px] md:min-w-[296px]  absolute top-[200px] -right-9"
+              />
+
+              <img
+                src={code}
+                alt=""
+                className="max-w-[180px] md:min-w-[296px] -bottom-12 left-28 absolute"
+              />
+            </div>
           </div>
-          <div className=" absolute top-[200px] right-3 md:bottom-0 md:right-5">
-            <img
-              src={chart1}
-              alt=""
-              className="max-w-[180px] md:min-w-[296px]"
-            />
-          </div>
-          <div className="absolute bottom-[-20px] left-[50%] md:bottom-[-50px] md:left-[65%] transform -translate-x-1/2">
-            <img
-              src={chart2}
-              alt=""
-              className="max-w-[180px] md:min-w-[296px]"
-            />
-          </div>
-          <div className="absolute bottom-[-20px] left-[70%] md:bottom-[-130px] md:left-[80%] transform -translate-x-1/2">
-            <img src={code} alt="" className="max-w-[180px] md:min-w-[296px]" />
-          </div>
-        </div>
-        <p className="mt-[50px] md:max-w-[900px] text-[20px]">
+        
+      </section>
+      <section className="mt-64 md:mt-20 px-5">
+        <div className="w-full md:w-[50%]">
+        <p className="  text-[20px]">
           At odissey, our mission is to inspire, educate, and ignite your
           passion for the cosmos. We are your premier destination for all things
           related to space exploration, astronomy, and the mysteries of the
@@ -170,6 +173,8 @@ const Navbar = () => {
             <MdSlowMotionVideo />
           </div>
         </div>
+        </div>
+       
       </section>
       <section className="mt-10">
         <div className=" grid grid-cols-2 md:flex  items-center justify-between gap-5">
