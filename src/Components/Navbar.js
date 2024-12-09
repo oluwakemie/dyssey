@@ -180,7 +180,7 @@ const Navbar = () => {
         </div>
       </section>
       <section className="mt-[100px] px-5 flex flex-col  lg:flex-row items-center gap-10 ">
-        <div className="text-[50px] font-extrabold">
+        <div className="text-[35px] md:text-[50px] font-extrabold">
           <p>Join our vibrant community of space enthusiasts where you can</p>
         </div>
         <div className="grid grid-cols-2  gap-5">
@@ -253,14 +253,14 @@ const Navbar = () => {
               Explore our educational resources, including.
             </h1>
           </div>
-          <div className="grid grid-cols-3 gap-7 absolute left-[200px] -bottom-[130px]   inset-x-5">
+          <div className=" grid grid-cols-1 top-0  md:grid-cols-3 gap-7 absolute left-[200px] md:-bottom-[130px]   inset-x-5">
             <div className="w-[250px] h-[250px] bg-white rounded-xl">
               <div className="px-5 py-3">
                 <h1 className="text-[#A9C2CB]">01.</h1>
                 <p className="font-bold">Online free courses and tutorials</p>
                 <p>
                   Dive into the basics of astronomy. Learn about stars, planets,
-                  galaxies, and the tools astronomers use to explore the
+                  galaxies, and the tools  astronomers use to explore the
                   universe.
                 </p>
               </div>
