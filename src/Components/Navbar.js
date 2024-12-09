@@ -120,7 +120,7 @@ const Navbar = () => {
       )}
       {/* hero section */}
 
-      <section className="h-[300px] md:h-[400px] z-10 relative my-10 p-5">
+      <section className="h-[300px] md:h-[400px] -z-10 relative my-10 p-5">
         <img
           src={chart3}
           alt=""
@@ -337,7 +337,7 @@ const Navbar = () => {
           <p className="text-[30px]">&copy; </p>
           <img src={Logo} alt="" className="object-contain h-[50px] w-[100px] md:h-[30px] md:w-[80px]"  />
         </div>
-        <div className="flex flex-col items-start md:flex-row gap-5 ">
+        <div className=" flex flex-col items-start md:flex-row gap-5 ">
           <p>Stay Connected</p>
           <p>Education</p>
           <p>Community</p>
