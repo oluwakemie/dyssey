@@ -298,7 +298,7 @@ const Navbar = () => {
           </div>
         </div>
       </section>
-      <section className="mt-[550px] md:[200px] lg:mt-[120px] mx-auto ">
+      <section className="mt-[750px] md:[200px] lg:mt-[120px] mx-auto ">
         <div className="relative z-10  w-full rounded-[20px] h-[360px] md:h-[420px] xl:h-[500px] overflow-hidden py-[28px] md:py-[34px] lg:py-[42px] px-[20px] md:px-[28px]">
           <img
             src={Rectangle5}
