@@ -121,60 +121,57 @@ const Navbar = () => {
       {/* hero section */}
 
       <section className="h-[300px] md:h-[400px] z-10 relative my-10 p-5">
-      
-          <img
-            src={chart3}
-            alt=""
-            className=" h-[300px] md:h-[400px] absolute right-0 -z-10 top-0   w-full"
-          />
-          <p className="text-[25px]    text-white font-bold md:text-[60px] leading-tight">
-            Unveiling the <br /> Wonders of <br /> the Universe
-          </p>
-          <div className="absolute top-16 md:top-0 right-10">
-            <div className="relative">
-              <img src={space} alt="" />
+        <img
+          src={chart3}
+          alt=""
+          className=" h-[300px] md:h-[400px] absolute right-0 -z-10 top-0   w-full"
+        />
+        <p className="text-[25px]    text-white font-bold md:text-[60px] leading-tight">
+          Unveiling the <br /> Wonders of <br /> the Universe
+        </p>
+        <div className="absolute top-16 md:top-0 right-10">
+          <div className="relative">
+            <img src={space} alt="" />
 
-              <img
-                src={chart2}
-                alt=""
-                className="max-w-[180px] md:min-w-[296px] absolute top-[240px] -left-9 "
-              />
+            <img
+              src={chart2}
+              alt=""
+              className="max-w-[180px] md:min-w-[296px] absolute top-[240px] -left-9 "
+            />
 
-              <img
-                src={chart1}
-                alt=""
-                className="max-w-[180px] md:min-w-[296px]  absolute top-[200px] -right-9"
-              />
+            <img
+              src={chart1}
+              alt=""
+              className="max-w-[180px] md:min-w-[296px]  absolute top-[200px] -right-9"
+            />
 
-              <img
-                src={code}
-                alt=""
-                className="max-w-[180px] md:min-w-[296px] -bottom-12 left-28 absolute"
-              />
-            </div>
+            <img
+              src={code}
+              alt=""
+              className="max-w-[180px] md:min-w-[296px] -bottom-12 left-28 absolute"
+            />
           </div>
-        
+        </div>
       </section>
       <section className="mt-64 md:mt-20 px-5">
         <div className="w-full md:w-[50%]">
-        <p className="  text-[20px]">
-          At odissey, our mission is to inspire, educate, and ignite your
-          passion for the cosmos. We are your premier destination for all things
-          related to space exploration, astronomy, and the mysteries of the
-          universe. Whether you're a seasoned astronomer or a curious novice,
-          join us on a journey to the furthest reaches of the cosmos.{" "}
-        </p>
-        <div className="flex items-center gap-10 mt-5">
-          <button className="bg-black text-white  drop-shadow-xl px-[30px] py-[14px] rounded-[15px] border border-[#000000]">
-            Get Started
-          </button>
-          <div className="flex items-center gap-5">
-            <p className="text-[17px] font-semibold">Watch the Video</p>
-            <MdSlowMotionVideo />
+          <p className="  text-[20px]">
+            At odissey, our mission is to inspire, educate, and ignite your
+            passion for the cosmos. We are your premier destination for all
+            things related to space exploration, astronomy, and the mysteries of
+            the universe. Whether you're a seasoned astronomer or a curious
+            novice, join us on a journey to the furthest reaches of the cosmos.{" "}
+          </p>
+          <div className="flex items-center gap-10 mt-5">
+            <button className="bg-black text-white  drop-shadow-xl px-[30px] py-[14px] rounded-[15px] border border-[#000000]">
+              Get Started
+            </button>
+            <div className="flex items-center gap-5">
+              <p className="text-[17px] font-semibold">Watch the Video</p>
+              <MdSlowMotionVideo />
+            </div>
           </div>
         </div>
-        </div>
-       
       </section>
       <section className="mt-10">
         <div className=" grid grid-cols-2 md:flex  items-center justify-between gap-5">
@@ -188,7 +185,7 @@ const Navbar = () => {
         <div className="text-[35px] md:text-[50px] font-extrabold">
           <p>Join our vibrant community of space enthusiasts where you can</p>
         </div>
-        <div className="grid grid-cols-2  gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-5">
           <div className="flex flex-col items-start">
             <img
               src={physics}
@@ -196,7 +193,7 @@ const Navbar = () => {
               className="bg-[#A9C2CB] px-2 py-2 rounded-md"
             />
             <p className="font-bold">Astronomy 101</p>
-            <p className="text-left text-[15px]">
+            <p className="text-left text-[13px] md:text-[15px]">
               Dive into the basics of astronomy. Learn about stars, planets,
               galaxies, and the tools astronomers use to explore the universe.
             </p>
@@ -208,7 +205,7 @@ const Navbar = () => {
               className="bg-[#A9C2CB] px-2 py-2 rounded-md"
             />
             <p className="font-bold">Latest Discoveries</p>
-            <p className="text-left text-[15px]">
+            <p className="text-left  text-[13px] md:text-[15px]">
               Stay up-to-date with the most recent breakthroughs and discoveries
               in the field of astrophysics and space exploration.
             </p>
@@ -220,7 +217,7 @@ const Navbar = () => {
               className="bg-[#A9C2CB] px-2 py-2 rounded-md"
             />
             <p className="font-bold">Space Exploration</p>
-            <p className="text-left text-[15px]">
+            <p className="text-left text-[13px] md:text-[15px]">
               Explore the latest missions, both past and present, from NASA,
               ESA, SpaceX, and other space agencies and organizations.
             </p>
@@ -232,7 +229,7 @@ const Navbar = () => {
               className="bg-[#A9C2CB] px-2 py-2 rounded-md"
             />
             <p className="font-bold">Space Technology</p>
-            <p className="text-left text-[15px]">
+            <p className="text-left text-[13px] md:text-[15px]">
               Delve into the cutting-edge technology powering space exploration,
               from spacecraft and telescopes to propulsion systems and space
               habitats.
@@ -241,38 +238,29 @@ const Navbar = () => {
         </div>
       </section>
       <section className="mt-10">
-        <div className=" relative">
+        <div className=" relative z-10 rounded-lg w-full h-[360px] md:h-[420px]  xl:h-[500px] ">
           <img
             src={Rectangle8}
             alt=""
-            className="min-h-[400px] object-cover md:object-contain w-full"
+            className="min-h-[400px] object-cover md:object-contain w-full "
           />
           {/* <p className="font-bold text-white text-[50px] absolute top-10 left-0 right-0 text-center max-w-[600px]">
             We are committed to making space science accessible to all. Explore
             our educational resources, including.
           </p> */}
-          <div class="absolute inset-0 flex items-center justify-center  ">
-            <h1 class="text-white text-[45px] font-bold text-center max-w-[700px]">
+          <div class="absolute items-center rounded-xl inset-0 flex md:items-start py-7 justify-center  ">
+            <h1 class="text-[20px] text-white md:text-[45px] font-bold text-center max-w-[700px]">
               {" "}
               We are committed to making space science accessible to all.
               Explore our educational resources, including.
             </h1>
           </div>
-          <div className=" grid grid-cols-1 top-0  md:grid-cols-3 gap-7 absolute left-[200px] md:-bottom-[130px]   inset-x-5">
-            <div className="w-[250px] h-[250px] bg-white rounded-xl">
+          <div className=" grid grid-cols-1 top-[330px]  inset-x-10 drop-shadow-xl  md:bottom-[-120px]  md:grid-cols-3 gap-7 absolute md:left-[200px]  md:inset-x-5">
+            <div className="md:w-[300px] md:h-[250px] bg-white rounded-xl">
               <div className="px-5 py-3">
-                <h1 className="text-[#A9C2CB]">01.</h1>
-                <p className="font-bold">Online free courses and tutorials</p>
-                <p>
-                  Dive into the basics of astronomy. Learn about stars, planets,
-                  galaxies, and the tools  astronomers use to explore the
-                  universe.
-                </p>
-              </div>
-            </div>
-            <div className="w-[250px] h-[250px] bg-white rounded-xl">
-              <div className="px-5 py-3">
-                <h1 className="text-[#A9C2CB]">01.</h1>
+                <h1 className="text-[#A9C2CB]  font-bold md:text-[40px]">
+                  01.
+                </h1>
                 <p className="font-bold">Online free courses and tutorials</p>
                 <p>
                   Dive into the basics of astronomy. Learn about stars, planets,
@@ -281,10 +269,25 @@ const Navbar = () => {
                 </p>
               </div>
             </div>
-            <div className="w-[250px] h-[250px] bg-white rounded-xl">
+            <div className="md:w-[300px] md:h-[250px] bg-white rounded-xl">
               <div className="px-5 py-3">
-                <h1 className="text-[#A9C2CB]">01.</h1>
-                <p className="font-bold">Online free courses and tutorials</p>
+                <h1 className="text-[#A9C2CB] font-bold md:text-[40px]">02.</h1>
+                <p className="font-bold">
+                  Resources for teachers and educators
+                </p>
+                <p>
+                  Delve into the cutting-edge technology powering space
+                  exploration, from spacecraft and telescopes to propulsion
+                  systems and space habitats.
+                </p>
+              </div>
+            </div>
+            <div className="md:w-[300px] md:h-[250px] bg-white rounded-xl">
+              <div className="px-5 py-3">
+                <h1 className="text-[#A9C2CB]  font-bold md:text-[40px]">
+                  03.
+                </h1>
+                <p className="font-bold">Book recommendations and reviews</p>
                 <p>
                   Dive into the basics of astronomy. Learn about stars, planets,
                   galaxies, and the tools astronomers use to explore the
@@ -295,6 +298,56 @@ const Navbar = () => {
           </div>
         </div>
       </section>
+      <section className="mt-[550px] md:[200px] lg:mt-[120px] mx-auto ">
+        <div className="relative z-10  w-full rounded-[20px] h-[360px] md:h-[420px] xl:h-[500px] overflow-hidden py-[28px] md:py-[34px] lg:py-[42px] px-[20px] md:px-[28px]">
+          <img
+            src={Rectangle5}
+            alt=""
+            className="-z-10 absolute left-0 top-0 w-full h-full object-cover"
+          />
+          <div className="h-full flex flex-col gap-9 justify-start px-[100px] py-[50px]">
+            <div>
+              <p className="text-white md:text-[60px] font-extrabold">
+                Join our community
+              </p>
+              <p className="text-white font-thin text-[15px]">
+                of stargazers, explorers, and cosmic enthusiasts as we embark on
+                a journey through the cosmos like never before.
+              </p>
+            </div>
+            <div className=" gap-3 flex-col w-full flex md:flex-row items-center ">
+              <div>
+                <input
+                  type="email"
+                  placeholder="Enter your email..."
+                  className="w-[500px] p-5  border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  value=""
+                />
+              </div>
+
+              <button className="bg-[#A9C2CB] p-5 w-full md:w-[200px] rounded-lg text-[#fff]">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section >
+      <footer className="mt-10 flex gap-3 justify-start flex-col md:flex-row  md:items-center md:justify-between font-semibold">
+        <div className="flex  items-center  ">
+          <p className="text-[30px]">&copy; </p>
+          <img src={Logo} alt="" className="object-contain h-[50px] w-[100px] md:h-[30px] md:w-[80px]"  />
+        </div>
+        <div className="flex flex-col items-start md:flex-row gap-5 ">
+          <p>Stay Connected</p>
+          <p>Education</p>
+          <p>Community</p>
+          <p>About Us</p>
+        </div>
+        <div className="flex gap-5 ">
+          <p>Privacy Policy</p>
+          <p>Terms & Agreements</p>
+        </div>
+      </footer>
     </div>
   );
 };
