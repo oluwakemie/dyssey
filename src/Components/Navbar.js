@@ -43,7 +43,7 @@ const Navbar = () => {
             <li>About Us</li>
           </ul>
         </div>
-        <button className=" px-[20px] py-[9px] bg-black text-white drop-shadow-xl md:px-[30px] md:py-[14px] rounded-[15px] border border-[#000000]">
+        <button className=" px-[13px] py-[9px] bg-black md:text-[20px] text-white drop-shadow-xl md:px-[30px] md:py-[14px] rounded-[15px] border border-[#000000]">
           Sign in
         </button>
         <button onClick={handleToggle} className=" md:inline-block lg:hidden">
@@ -166,7 +166,7 @@ const Navbar = () => {
             <button className="bg-black text-white  drop-shadow-xl px-[30px] py-[14px] rounded-[15px] border border-[#000000]">
               Get Started
             </button>
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-2">
               <p className="text-[17px] font-semibold">Watch the Video</p>
               <MdSlowMotionVideo />
             </div>
