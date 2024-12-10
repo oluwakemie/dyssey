@@ -299,28 +299,28 @@ const Navbar = () => {
         </div>
       </section>
       <section className="mt-[750px] md:[200px] lg:mt-[120px] mx-auto ">
-        <div className="relative z-10  w-full rounded-[20px] h-[360px] md:h-[420px] xl:h-[500px] overflow-hidden py-[28px] md:py-[34px] lg:py-[42px] px-[20px] md:px-[28px]">
+        <div className="relative w-full rounded-[20px] h-[360px] md:h-[420px] xl:h-[500px] overflow-hidden py-[28px] md:py-[34px] lg:py-[42px] px-[20px] md:px-[28px]">
           <img
             src={Rectangle5}
             alt=""
             className="-z-10 absolute left-0 top-0 w-full h-full object-cover"
           />
-          <div className="h-full flex flex-col gap-9 justify-start px-[100px] py-[50px]">
+          <div className=" flex flex-col gap-5 justify-start md:gap-9  md:px-[100px] md:py-[50px]">
             <div>
-              <p className="text-white md:text-[60px] font-extrabold">
+              <p className="text-white text-[20px]  md:text-[60px] font-extrabold ">
                 Join our community
               </p>
-              <p className="text-white font-thin text-[15px]">
+              <p className="text-white font-thin text-[15px] w-full">
                 of stargazers, explorers, and cosmic enthusiasts as we embark on
                 a journey through the cosmos like never before.
               </p>
             </div>
-            <div className=" gap-3 flex-col w-full flex md:flex-row items-center ">
+            <div className=" gap-3 flex-col  flex md:flex-row items-center ">
               <div>
                 <input
                   type="email"
                   placeholder="Enter your email..."
-                  className="w-[500px] p-5  border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="max-w-[500px] w-[350px] p-5  border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-500"
                   value=""
                 />
               </div>
