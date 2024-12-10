@@ -43,7 +43,7 @@ const Navbar = () => {
             <li>About Us</li>
           </ul>
         </div>
-        <button className=" px-[13px] py-[9px] bg-black md:text-[20px] text-white drop-shadow-xl md:px-[30px] md:py-[14px] rounded-[15px] border border-[#000000]">
+        <button className=" px-[13px] py-[9px] bg-black font-semibold md:text-[20px] text-white drop-shadow-xl md:px-[30px] md:py-[14px] rounded-[15px] border border-[#000000]">
           Sign in
         </button>
         <button onClick={handleToggle} className=" md:inline-block lg:hidden">
