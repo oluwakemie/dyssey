@@ -255,7 +255,7 @@ const Navbar = () => {
               Explore our educational resources, including.
             </h1>
           </div>
-          <div className=" grid grid-cols-1 top-[330px]  inset-x-10 drop-shadow-xl  md:bottom-[-120px]  md:grid-cols-3 gap-7 absolute md:left-[200px]  md:inset-x-5">
+          <div className=" grid grid-cols-1 top-[330px]  inset-x-10 drop-shadow-xl  md:bottom-[-120px]  md:grid-cols-3 gap-7 absolute md:left-[100px]  md:inset-x-5">
             <div className="md:w-[300px] md:h-[250px] bg-white rounded-xl">
               <div className="px-5 py-3">
                 <h1 className="text-[#A9C2CB]  font-bold md:text-[40px]">
@@ -343,7 +343,7 @@ const Navbar = () => {
           <p>Community</p>
           <p>About Us</p>
         </div>
-        <div className="flex gap-5 ">
+        <div className="flex gap-5">
           <p>Privacy Policy</p>
           <p>Terms & Agreements</p>
         </div>
