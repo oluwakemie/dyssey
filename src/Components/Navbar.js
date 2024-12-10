@@ -182,11 +182,11 @@ const Navbar = () => {
         </div>
       </section>
       <section className="mt-[100px] px-5 flex flex-col  lg:flex-row items-center gap-10 ">
-        <div className="text-[35px] md:text-[50px] font-extrabold">
+        <div className="text-[25px] md:text-[50px] font-extrabold">
           <p>Join our vibrant community of space enthusiasts where you can</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2  gap-5">
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col  items-start">
             <img
               src={physics}
               alt=""
@@ -305,14 +305,14 @@ const Navbar = () => {
             alt=""
             className="-z-10 absolute left-0 top-0 w-full h-full object-cover"
           />
-          <div className=" flex flex-col gap-5 justify-start md:gap-9  md:px-[100px] md:py-[50px]">
+          <div className=" flex flex-col gap-7 justify-start md:gap-9  md:px-[100px] md:py-[50px]">
             <div>
-              <p className="text-white text-[20px]  md:text-[60px] font-extrabold ">
+              <p className="text-white text-[25px]  md:text-[60px] font-extrabold ">
                 Join our community
               </p>
-              <p className="text-white font-thin text-[15px] w-full">
+              <p className="text-white text-[12px]  font-thin md:text-[15px] w-full">
                 of stargazers, explorers, and cosmic enthusiasts as we embark on
-                a journey through the cosmos like never before.
+                a journey through the <br /> cosmos like never before.
               </p>
             </div>
             <div className=" gap-3 flex-col  flex md:flex-row items-center ">
